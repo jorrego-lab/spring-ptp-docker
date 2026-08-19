@@ -1,0 +1,10 @@
+spring:
+    config:
+        activate:
+            on-profile: demo
+
+propiedades:
+    placetopay:
+        login: 76defe4be8dcbf4647b59c13af28b9ae
+        trankey: 9G9MCVWQIRX9S981
+        url: https://checkout-test.placetopay.com/

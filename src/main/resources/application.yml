@@ -1,0 +1,17 @@
+server:
+    port: 8080
+    servlet:
+      contextPath: "/api/placetopay-lightbox/*"
+      context-path: "/api/placetopay-lightbox"
+
+spring:
+    profiles:
+        active: "@activatedProperties@"
+        
+propiedades:
+    resttemplate:
+        conectTimeout: 3000
+        readTimeout: 20000
+    placetopay:
+        session: "/api/session"
+

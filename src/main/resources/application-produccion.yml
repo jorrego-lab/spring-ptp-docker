@@ -1,0 +1,10 @@
+spring:
+    config:
+        activate:
+            on-profile: produccion
+
+propiedades:
+    placetopay:
+        login: 0cf557647d92fc8dad7a4a255c88d839
+        trankey: rqJtYN8WH0BIum8R
+        url: https://checkout.placetopay.com/
